@@ -1,7 +1,3 @@
-*.zip
-*.ttf
-*.otf
-*.txt
-*.woff2
+**/
 fonts.json
 *.DS_Store
