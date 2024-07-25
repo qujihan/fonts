@@ -17,6 +17,16 @@
 # 使用方式
 根据 [fonts-example.json](fonts-example.json) 新建一个文件为 fonts.json , 运行`python download.py`, 根据 fonts.json 的内容会自动下载字体
 
+```shell
+git submodule add https://github.com/qujihan/fonts.git
+
+cp fonts/fonts-example.json fonts.json
+
+# 修改 fonts.json文件
+
+python fonts/download.py
+```
+
 # 使用typst查看字体名称
 ```shell
 comm <(typst fonts | sort) <(typst fonts --font-path . | sort)
