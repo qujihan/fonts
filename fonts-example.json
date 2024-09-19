@@ -34,5 +34,11 @@
         "https://raw.githubusercontent.com/qujihan/font-resource/main/TimesNewRoman/TimesNewRoman-Bold.ttf",
         "https://raw.githubusercontent.com/qujihan/font-resource/main/TimesNewRoman/TimesNewRoman-Italic.ttf",
         "https://raw.githubusercontent.com/qujihan/font-resource/main/TimesNewRoman/TimesNewRoman-Bold-Italic.ttf"
+    ],
+    "GB2312-fangsong": [
+        "https://raw.githubusercontent.com/qujihan/font-resource/main/GB2312/fangsong.ttf"
+    ],
+    "GB2312-kaiti": [
+        "https://raw.githubusercontent.com/qujihan/font-resource/main/GB2312/kaiti.ttf"
     ]
 }

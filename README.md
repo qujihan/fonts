@@ -7,6 +7,9 @@
     - [Han-serif 思源宋体](https://github.com/adobe-fonts/source-han-serif):
     - [Han-sans 思源黑体](https://github.com/adobe-fonts/source-han-sans):
     - [LxgwWenKai 霞鹜文楷](https://github.com/lxgw/LxgwWenKai):
+    - [GB2312]()
+        - 楷体
+        - 仿宋
 - 西文(仅英语)
     - [lora](https://github.com/cyrealtype/Lora-Cyrillic):
     - [TimesNewRoman](https://github.com/qujihan/font-resource):

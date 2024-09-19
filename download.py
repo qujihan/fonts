@@ -4,7 +4,6 @@ import os
 import sys
 import json
 import time
-import logging
 import zipfile
 import argparse
 import requests
@@ -81,7 +80,9 @@ def download_font(url, path):
 
 
 def extract_font(src, det):
-    print(f"Extracting {color_blue} {os.path.basename(src)} {color_reset} to {color_yellow} {det} {color_reset}")
+    print(
+        f"Extracting {color_blue} {os.path.basename(src)} {color_reset} to {color_yellow} {det} {color_reset}"
+    )
     with zipfile.ZipFile(src, "r") as zip_ref:
         zip_ref.extractall(det)
 
